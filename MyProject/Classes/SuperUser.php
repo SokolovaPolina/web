@@ -1,6 +1,10 @@
 <?php
 declare(strict_types=1);
+namespace MyProject\Classes;
+
 require_once('User.php');
+// require_once('Classes/User.php');
+
 
 /**
  * SuperUser, наследованный от класса User

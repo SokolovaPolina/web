@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+namespace MyProject\Classes;
 /*
  * User Class
  */ 
@@ -24,6 +25,7 @@ class User {
          echo "<p><b>name:</b> {$this->name} <b>login:</b> {$this->login} <b>password:</b> {$this->password}</p>";
         
      }
+
     /*
  * Функция конструктор
  * @param string $name, string $login, string $password
