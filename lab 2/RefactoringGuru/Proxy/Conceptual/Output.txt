@@ -1,0 +1,15 @@
+Client: Executing the client code with a real subject:
+RealSubject: Handling request.
+
+Client: Executing the same client code with a proxy:
+Proxy: Checking access prior to firing a real request.
+RealSubject: Handling request.
+Proxy: Logging the time of request.
+---------------------------------------------------------
+Клиент: выполнение клиентского кода с реальным субъектом:
+RealSubject: обработка запроса.
+
+Клиент: выполнение того же клиентского кода с прокси-сервером:
+Proxy: проверка доступа перед отправкой реального запроса.
+RealSubject: обработка запроса.
+Proxy: запись времени запроса.

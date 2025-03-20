@@ -1,0 +1,14 @@
+Facade initializes subsystems:
+Subsystem1: Ready!
+Subsystem2: Get ready!
+Facade orders subsystems to perform the action:
+Subsystem1: Go!
+Subsystem2: Fire!
+---------------------------------------------------
+
+Фасад инициализирует подсистемы:
+Подсистема 1: готова!
+Подсистема 2: приготовьтесь!
+Фасад приказывает подсистемам выполнить действие:
+Подсистема 1: вперёд!
+Подсистема 2: огонь!

@@ -1,0 +1,22 @@
+Client triggers operation A.
+Component 1 does A.
+Mediator reacts on A and triggers following operations:
+Component 2 does C.
+
+Client triggers operation D.
+Component 2 does D.
+Mediator reacts on D and triggers following operations:
+Component 1 does B.
+Component 2 does C.
+---------------------------------------------
+
+Клиент запускает операцию A.
+Компонент 1 выполняет A.
+Посредник реагирует на A и запускает следующие операции:
+Компонент 2 выполняет C.
+
+Клиент запускает операцию D.
+Компонент 2 выполняет D.
+Посредник реагирует на D и запускает следующие операции:
+Компонент 1 выполняет B.
+Компонент 2 выполняет C.

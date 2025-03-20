@@ -1,0 +1,3 @@
+Singleton works, both variables contain the same instance.
+------------------------------
+Работает синглтон, обе переменные содержат один и тот же экземпляр.

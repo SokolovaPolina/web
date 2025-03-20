@@ -1,0 +1,18 @@
+Client: I get a simple component:
+RESULT: Leaf
+
+Client: Now I get a composite tree:
+RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf))
+
+Client: I don't need to check the components classes even when managing the tree::
+RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf)+Leaf)
+----------------------------------------------------------------
+
+Клиент: я получаю простой компонент:
+ РЕЗУЛЬТАТ: Лист
+
+Клиент: теперь я получаю составное дерево:
+ РЕЗУЛЬТАТ: Ветвь(Ветвь(Лист+Лист)+Ветвь(Лист))
+
+Клиент: мне не нужно проверять классы компонентов даже при управлении деревом::
+ РЕЗУЛЬТАТ: Ветвь(Ветвь(Лист+Лист)+Ветвь(Лист)+Лист)

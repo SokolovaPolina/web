@@ -1,0 +1,31 @@
+Same client code can work with different subclasses:
+AbstractClass says: I am doing bulk of the work
+ConcreteClass1 says: Implemented Operation1
+AbstractClass says: But I let subclasses to override some operations
+ConcreteClass1 says: Implemented Operation2
+AbstractClass says: But I am doing bulk of the work anyway
+
+Same client code can work with different subclasses:
+AbstractClass says: I am doing bulk of the work
+ConcreteClass2 says: Implemented Operation1
+AbstractClass says: But I let subclasses to override some operations
+ConcreteClass2 says: Overridden Hook1
+ConcreteClass2 says: Implemented Operation2
+AbstractClass says: But I am doing bulk of the work anyway
+
+-----------------------------------------------------
+
+Один и тот же клиентский код может работать с разными подклассами:
+AbstractClass сообщает: Я выполняю основную часть работы
+ConcreteClass1 сообщает: Реализованная операция1
+AbstractClass сообщает: Но я позволяю подклассам переопределять некоторые операции
+ConcreteClass1 говорит: Реализованная операция2
+AbstractClass говорит: Но я все равно выполняю основную часть работы
+
+Один и тот же клиентский код может работать с разными подклассами:
+AbstractClass говорит: Я выполняю основную часть работы
+ConcreteClass2 говорит: Реализована операция 1
+AbstractClass говорит: Но я позволяю подклассам переопределять некоторые операции
+ConcreteClass2 говорит: Переопределён хук 1
+ConcreteClass2 говорит: Реализована операция 2
+AbstractClass говорит: Но я всё равно выполняю большую часть работы

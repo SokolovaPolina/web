@@ -1,0 +1,20 @@
+Straight traversal:
+First
+Second
+Third
+
+Reverse traversal:
+Third
+Second
+First
+------------------------
+
+Прямой обход:
+Первый
+Второй
+Третий
+
+Обратный обход:
+Третий
+Второй
+Первый

@@ -1,0 +1,12 @@
+Abstraction: Base operation with:
+ConcreteImplementationA: Here's the result on the platform A.
+
+Абстракция: базовая операция с:
+конкретной реализацией A: вот результат на платформе A.
+
+
+ExtendedAbstraction: Extended operation with:
+ConcreteImplementationB: Here's the result on the platform B.
+
+Расширенная абстракция: расширенная операция с:
+конкретной реализацией B: вот результат на платформе B.

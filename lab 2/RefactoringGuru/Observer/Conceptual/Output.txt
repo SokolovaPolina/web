@@ -1,0 +1,41 @@
+Subject: Attached an observer.
+Subject: Attached an observer.
+
+Subject: I'm doing something important.
+Subject: My state has just changed to: 2
+Subject: Notifying observers...
+ConcreteObserverA: Reacted to the event.
+ConcreteObserverB: Reacted to the event.
+
+Subject: I'm doing something important.
+Subject: My state has just changed to: 4
+Subject: Notifying observers...
+ConcreteObserverB: Reacted to the event.
+Subject: Detached an observer.
+
+Subject: I'm doing something important.
+Subject: My state has just changed to: 1
+Subject: Notifying observers...
+ConcreteObserverA: Reacted to the event.
+
+-----------------------------------------------
+
+Тема: Прикрепил наблюдателя.
+Тема: Прикрепил наблюдателя.
+
+Тема: Я делаю что-то важное.
+Тема: Моё состояние только что изменилось на: 2
+Тема: Уведомляю наблюдателей...
+ConcreteObserverA: Отреагировал на событие.
+ConcreteObserverB: Отреагировал на событие.
+
+Тема: Я делаю что-то важное.
+Тема: Моё состояние только что изменилось на: 4
+Тема: Уведомление наблюдателей...
+ConcreteObserverB: Реагирует на событие.
+Тема: Отсоединил наблюдателя.
+
+Тема: Я делаю что-то важное.
+Тема: Моё состояние только что изменилось на: 1
+Тема: Уведомление наблюдателей...
+ConcreteObserverA: Реагирует на событие.

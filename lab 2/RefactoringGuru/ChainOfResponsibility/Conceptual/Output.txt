@@ -1,0 +1,36 @@
+Chain: Monkey > Squirrel > Dog
+
+Client: Who wants a Nut?
+  Squirrel: I'll eat the Nut.
+Client: Who wants a Banana?
+  Monkey: I'll eat the Banana.
+Client: Who wants a Cup of coffee?
+  Cup of coffee was left untouched.
+
+Subchain: Squirrel > Dog
+
+Client: Who wants a Nut?
+  Squirrel: I'll eat the Nut.
+Client: Who wants a Banana?
+  Banana was left untouched.
+Client: Who wants a Cup of coffee?
+  Cup of coffee was left untouched.
+
+---------------------------------------------
+Цепочка: Обезьяна > Белка > Собака
+
+Клиент: Кто хочет орешек?
+  Белка: Я съем орешек.
+Клиент: Кто хочет банан?
+  Обезьяна: Я съем банан.
+Клиент: Кто хочет чашечку кофе?
+  Чашка кофе осталась нетронутой.
+
+Подцепочка: Белка > Собака
+
+Клиент: Кто хочет орешек?
+  Белка: Я съем орех.
+Клиент: Кто хочет банан?
+ Банан остался нетронутым.
+Клиент: Кто хочет чашечку кофе?
+ Чашечка кофе осталась нетронутой.

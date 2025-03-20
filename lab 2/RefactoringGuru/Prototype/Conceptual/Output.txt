@@ -1,0 +1,10 @@
+Primitive field values have been carried over to a clone. Yay!
+Simple component has been cloned. Yay!
+Component with back reference has been cloned. Yay!
+Component with back reference is linked to the clone. Yay!
+-------------------------------------------------------------
+
+Значения примитивных полей были перенесены в клон. Ура!
+Простой компонент был клонирован. Ура!
+Компонент с обратной ссылкой был клонирован. Ура!
+Компонент с обратной ссылкой связан с клоном. Ура!

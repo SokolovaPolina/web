@@ -2,10 +2,10 @@
 declare(strict_types=1);
 namespace MyProject\Classes;
 /*
- * User Class
+ * User Class, наследованный от абстрактного класса AbstractUser
  */ 
 
-class User { 
+class User extends AbstractUser{ 
     /**
  * @param public $name - имя пользователя
  *        public $login - логин 
@@ -14,6 +14,7 @@ class User {
     public $name; 
     public $login; 
     public $password;
+    public static $userCount = 0;
     
     /*
  * Функция вывода значение свойств класса
@@ -35,6 +36,7 @@ class User {
       $this->name = $name;
       $this->login = $login;
       $this->password = $password;
+      self::$userCount++;
     }
 
     /*
@@ -43,7 +45,7 @@ class User {
  * @return вывод логина при удалении информации об элементах класса
  */	  
     function __destruct(){  // Деструктор
-      echo "Пользователь <b>{$this->login}</b> удален <br>";
+      echo "<p>Пользователь <b>{$this->login}</b> удален </p>";
     }
 }
 

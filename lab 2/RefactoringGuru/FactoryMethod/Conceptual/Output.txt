@@ -1,0 +1,16 @@
+App: Launched with the ConcreteCreator1.
+Client: I'm not aware of the creator's class, but it still works.
+Creator: The same creator's code has just worked with {Result of the ConcreteProduct1}
+
+App: Launched with the ConcreteCreator2.
+Client: I'm not aware of the creator's class, but it still works.
+Creator: The same creator's code has just worked with {Result of the ConcreteProduct2}
+______________________________________________________________
+
+Приложение: запущено с помощью ConcreteCreator1.
+Клиент: я не знаю класс создателя, но он всё равно работает.
+Создатель: тот же код создателя только что работал с {результатом ConcreteProduct1}
+
+Приложение: запущено с помощью ConcreteCreator2.
+Клиент: я не знаю класс создателя, но он всё равно работает.
+Создатель: тот же код создателя только что сработал с {результатом ConcreteProduct2}
