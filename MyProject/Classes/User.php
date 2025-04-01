@@ -8,8 +8,9 @@ namespace MyProject\Classes;
 class User extends AbstractUser{ 
     /**
  * @param public $name - имя пользователя
- *        public $login - логин 
- *        public $password - пароль 
+ *        public $login - логин
+ *        public $password - пароль
+ *        public static $userCount - количество пользователей
  */
     public $name; 
     public $login; 
@@ -30,7 +31,7 @@ class User extends AbstractUser{
     /*
  * Функция конструктор
  * @param string $name, string $login, string $password
- * @return св-ва классов $this->name, $this->login, $this->password, $this->role
+ * @return св-ва классов $this->name, $this->login, $this->password, $this->role, self::$userCount
  */	 
     function __construct($name, $login, $password){  //Конструктор
       $this->name = $name;
