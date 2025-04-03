@@ -1,0 +1,31 @@
+@startuml
+!theme vibrant
+
+abstract class AbstractUser {
+    +showInfo(): void
+}
+
+interface SuperUserInterface {
+    +getInfo(): void
+}
+
+class SuperUser {
+    + $role: String
+    + $userCount: int
+    + showInfo(): void
+    + getInfo(): void
+}
+
+class User {
+    +$name: String 
+    +$login: String
+    +$password: String
+    +$userCount: int
+    +showInfo(): void
+  
+}
+
+AbstractUser <|-- User
+User <|-- SuperUser 
+SuperUser ..|> SuperUserInterface
+@enduml

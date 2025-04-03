@@ -2,8 +2,6 @@
 declare(strict_types=1);
 namespace MyProject\Classes;
 
-require_once('User.php');
-
 /**
  * SuperUser, наследованный от класса User с интерфейсом SuperUserInterface
  */
@@ -12,7 +10,7 @@ class SuperUser extends User implements SuperUserInterface{
 * @param public $role - роль пользователя
 */
    public $role;
-   public static $userCount = 0;
+   public static $superUserCount = 0;
    
    // перегрузка конструкторa
    /*
@@ -21,9 +19,11 @@ class SuperUser extends User implements SuperUserInterface{
 * @return вывод св-в $this->name, $this->login, $this->password, $this->role
 */	
    function __construct($name, $login, $password, $role) {
-       parent::__construct($name, $login, $password);   // перегрузка с выполнением родительского метода
-       $this->role = $role;
-       self::$userCount++;
+      $this->name = $name;
+      $this->login = $login;
+      $this->password = $password;
+      $this->role = $role;
+      self::$superUserCount++;
    }
    
 /*

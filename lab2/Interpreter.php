@@ -18,7 +18,7 @@ class Context
     public function lookUp(string $name): bool
     {
         if (!key_exists($name, $this->poolVariable)) {
-            die("No exist variable: $name");
+            die("Не существует переменной: $name");
         }
 
         return $this->poolVariable[$name];
@@ -112,9 +112,9 @@ $context->assign($a, true);
 $context->assign($b, true);
 $context->assign($c, false);
 
-$result = $exp->interpret($context) ? 'true' : 'false';
+$result = $exp->interpret($context) ? 'правда' : 'ложь';
 
-echo 'boolean expression A ∧ (B ∨ C) = ' . $result . ', with variables A=true, B=true, C=false' . PHP_EOL;
+echo 'логическое выражение A ∧ (B ∨ C) = ' . $результат . ', с переменными A=правда, B=правда, C=ложь' . PHP_EOL;
 
 
 // example 2:
@@ -131,6 +131,6 @@ $context->assign($a, false);
 $context->assign($b, false);
 $context->assign($c, true);
 
-$result2 = $exp->interpret($context) ? 'true' : 'false';
+$result2 = $exp->interpret($context) ? 'правда' : 'ложь';
 
-echo 'boolean expression B ∨ (A ∧ (B ∨ C)) = ' . $result2 . ', with variables A=false, B=false, C=true';
+echo 'логическое выражение  B ∨ (A ∧ (B ∨ C)) = ' . $result2 . ',  с переменными A=ложь, B=ложь, C=правда';

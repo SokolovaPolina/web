@@ -29,5 +29,5 @@ $user->showInfo();
 $user->getInfo();
 
 echo "<p>Всего обычных пользователей: " . User::$userCount . "\n</p>";
-echo "<p>Всего cупер-пользователей: " . SuperUser::$userCount . "\n</p>";
+echo "<p>Всего cупер-пользователей: " . SuperUser::$superUserCount . "\n</p>";
 

@@ -54,7 +54,7 @@
     <div id = "conteiner">
     <h1 > Лабораторные работы по PHP</h1>
     <div id = "left">
-    <h2>1. Знакомство с PHP </h2>
+    <h2>1. Классы и интерфейсы </h2>
     <ol>
         <li> <a href="http://f1097100.xsph.ru/MyProject/users.php">Классы и интерфейсы</a></li>
         <li> <a href="http://f1097100.xsph.ru/MyProject/uml.html">Классы и интерфейсы. UML</a></li>
