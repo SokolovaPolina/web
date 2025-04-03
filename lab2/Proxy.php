@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Proxy\Conceptual;
+namespace lab2;
 
 /**
  * EN: Proxy Design Pattern

@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Singleton\Conceptual;
+namespace lab2;
 
 /**
  * EN: Singleton Design Pattern

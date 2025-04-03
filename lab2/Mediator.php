@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Mediator\Conceptual;
+namespace lab2;
 
 /**
  * EN: Mediator Design Pattern

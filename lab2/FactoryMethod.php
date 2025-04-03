@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\FactoryMethod\Conceptual;
+namespace lab2;
 
 /**
  * EN: Factory Method Design Pattern

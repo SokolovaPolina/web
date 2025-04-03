@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Flyweight\Conceptual;
+namespace lab2;
 
 /**
  * EN: Flyweight Design Pattern

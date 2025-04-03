@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Facade\Conceptual;
+namespace lab2;
 
 /**
  * EN: Facade Design Pattern

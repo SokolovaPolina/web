@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Iterator\Conceptual;
+namespace lab2;
 
 /**
  * EN: Iterator Design Pattern

@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Decorator\Conceptual;
+namespace lab2;
 
 /**
  * EN: Decorator Design Pattern
@@ -25,6 +25,7 @@ interface Component
 {
     public function operation(): string;
 }
+
 
 /**
  * EN: Concrete Components provide default implementations of the operations.

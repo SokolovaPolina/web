@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\AbstractFactory\Conceptual;
+namespace lab2;
 
 /**
  * EN: Abstract Factory Design Pattern

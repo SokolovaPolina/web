@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Builder\Conceptual;
+namespace lab2;
 
 /**
  * EN: Builder Design Pattern

@@ -123,7 +123,7 @@ class Subject implements \SplSubject
      */
     public function attach(\SplObserver $observer): void
     {
-        echo "Издатель: Прикрепленный наблюдатель.\n";
+        echo "Издатель: Attached an observer.\n";
         $this->observers->attach($observer);
     }
 

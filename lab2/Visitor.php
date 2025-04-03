@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Visitor\Conceptual;
+namespace lab2;
 
 /**
  * EN: Visitor Design Pattern

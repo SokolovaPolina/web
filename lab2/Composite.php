@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Composite\Conceptual;
+namespace lab2;
 
 /**
  * EN: Composite Design Pattern

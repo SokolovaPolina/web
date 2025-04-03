@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Memento\Conceptual;
+namespace lab2;
 
 /**
  * EN: Memento Design Pattern

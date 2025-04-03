@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\State\Conceptual;
+namespace lab2;
 
 /**
  * EN: State Design Pattern

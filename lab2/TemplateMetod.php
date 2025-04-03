@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\TemplateMethod\Conceptual;
+namespace lab2;
 
 /**
  * EN: Template Method Design Pattern

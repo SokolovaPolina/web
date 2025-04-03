@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Adapter\Conceptual;
+namespace lab2;
 
 /**
  * EN: Adapter Design Pattern

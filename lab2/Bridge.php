@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Bridge\Conceptual;
+namespace lab2;
 
 /**
  * EN: Bridge Design Pattern

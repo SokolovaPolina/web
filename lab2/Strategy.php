@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Strategy\Conceptual;
+namespace lab2;
 
 /**
  * EN: Strategy Design Pattern

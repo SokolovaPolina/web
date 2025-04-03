@@ -1,7 +1,6 @@
 <?php
 
-namespace RefactoringGuru\ChainOfResponsibility\Conceptual;
-
+namespace lab2;
 /**
  * EN: Chain of Responsibility Design Pattern
  *

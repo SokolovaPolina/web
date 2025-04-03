@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Command\Conceptual;
+namespace lab2;
 
 /**
  * EN: Command Design Pattern

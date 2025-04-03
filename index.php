@@ -57,24 +57,36 @@
     <h2>1. Классы и интерфейсы </h2>
     <ol>
         <li> <a href="http://f1097100.xsph.ru/MyProject/users.php">Классы и интерфейсы</a></li>
-        <li> <a href="http://f1097100.xsph.ru/MyProject/uml.html">Классы и интерфейсы. UML</a></li>
-        <!-- <li><a href="http://f0868605.xsph.ru/lab_1/vars.php">Работа с переменными и типами</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_1/if.php">Работа с конструкцией if-elseif-else</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_1/switch.php">Работа с конструкцией switch</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_1/match.php"> Работа с конструкцией match</li>
-        <li><a href="http://f0868605.xsph.ru/lab_1/array.php">Работа с массивами</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_1/constant.php">Работа с константами</a></li> -->
+        <li> <a href="http://f1097100.xsph.ru/MyProject/uml.html">UML-диаграмма классов</a></li>
+    
     </ol>  
-    <!-- <h2>2. Циклы и пользовательские функции </h2>
+    <h2>2. Паттерны проектирования </h2>
     <ol>
-        <li> <a href="http://f0868605.xsph.ru/lab_2/for.php">Работа с циклом for </a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_2/while.php">Работа с циклом while</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_2/table.php">Практическое использование циклов</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_2/menu.php">Практическое использование цикла foreach</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_2/gettable.php">Работа с функциями</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_2/getmenu.php">Практическое использование функций</a></li>
+        <li> <a href="http://f1097100.xsph.ru/lab2/FactoryMethod.php">Фабричный метод (Factory Method) </a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/AbstractFactory.php">Абстрактная фабрика (Abstract Factory)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Builder.php">Строитель (Builder)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Singleton.php">Одиночка (Singleton)</a></li>
+
+        <li><a href="http://f1097100.xsph.ru/lab2/Adapter.php">Адаптер (Adapter)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Bridge.php">Мост (Bridge)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Composite.php">Компоновщик (Composite)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Decorate.php">Декоратор (Decorator)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Facade.php">Фасад (Facade)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Flyweight.php">Легковес (Flyweight)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Proxy.php">Заместитель (Proxy)</a></li>
+
+        <li><a href="http://f1097100.xsph.ru/lab2/ChainOfResponsibility.php">Цепочка обязанностей (Chain of Responsibility)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Command.php">Команда (Command)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Iterator.php">Итератор (Iterator)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Mediator.php">Посредник (Mediator)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Memento.php">Снимок (Memento)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Observer.php">Наблюдатель (Observer)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/State.php">Состояние (State)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Strategy.php">Стратегия (Strategy)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/TemplateMetod.php">Шаблонный метод (Template Method)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab2/Visitor.php">Посетитель (Visitor)</a></li>
     </ol>
-    <h2>3. Встроенные функции</h2>
+    <!-- <h2>3. Встроенные функции</h2>
     <ol>
         <li> <a href="http://f0868605.xsph.ru/lab_3/strings.php">Использование функций обработки строк</a></li>
         <li><a href="http://f0868605.xsph.ru/lab_3/date.php">Использование функций даты и времени</a></li>
