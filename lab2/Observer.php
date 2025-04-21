@@ -89,6 +89,7 @@ namespace RefactoringGuru\Observer\Conceptual;
  * RU: Издатель владеет некоторым важным состоянием и оповещает наблюдателей о
  * его изменениях.
  */
+echo '<pre>';
 class Subject implements \SplSubject
 {
     /**
@@ -215,3 +216,4 @@ $subject->someBusinessLogic();
 $subject->detach($o2);
 
 $subject->someBusinessLogic();
+echo '</pre>';

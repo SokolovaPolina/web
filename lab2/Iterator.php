@@ -85,6 +85,7 @@ use Iterator;
  * RU: Конкретные Итераторы реализуют различные алгоритмы обхода. Эти классы
  * постоянно хранят текущее положение обхода.
  */
+echo '<pre>';
 class AlphabeticalOrderIterator implements \Iterator
 {
     /**
@@ -199,3 +200,4 @@ echo "Обратный обход:\n";
 foreach ($collection->getReverseIterator() as $item) {
     echo $item . "\n";
 }
+echo '</pre>';

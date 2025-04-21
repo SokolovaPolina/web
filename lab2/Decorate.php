@@ -21,6 +21,7 @@ namespace lab2;
  * RU: Базовый интерфейс Компонента определяет поведение, которое изменяется
  * декораторами.
  */
+echo '<pre>';
 interface Component
 {
     public function operation(): string;
@@ -161,3 +162,4 @@ $decorator1 = new ConcreteDecoratorA($simple);
 $decorator2 = new ConcreteDecoratorB($decorator1);
 echo "Клиент: Теперь у меня есть оформленный компонент:\n";
 clientCode($decorator2);
+echo '</pre>';

@@ -26,6 +26,7 @@ namespace lab2;
  * объектам внутри подсистемы. Фасад также отвечает за управление их жизненным
  * циклом. Все это защищает клиента от нежелательной сложности подсистемы.
  */
+echo '<pre>';
 class Facade
 {
     protected $subsystem1;
@@ -147,3 +148,4 @@ $subsystem1 = new Subsystem1();
 $subsystem2 = new Subsystem2();
 $facade = new Facade($subsystem1, $subsystem2);
 clientCode($facade);
+echo '</pre>';

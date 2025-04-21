@@ -23,6 +23,7 @@ namespace lab2;
  * объект класса Продукт. Подклассы Создателя обычно предоставляют реализацию
  * этого метода.
  */
+echo '<pre>';
 abstract class Creator
 {
     /**
@@ -164,3 +165,4 @@ echo "\n\n";
 
 echo "Приложение: Запущено с помощью ConcreteCreator2.\n";
 clientCode(new ConcreteCreator2());
+echo '</pre>';

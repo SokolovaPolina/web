@@ -24,6 +24,7 @@ namespace lab2;
  * уведомления посредника о различных событиях. Посредник может реагировать на
  * эти события и передавать исполнение другим компонентам.
  */
+echo '<pre>';
 interface Mediator
 {
     public function notify(object $sender, string $event): void;
@@ -140,3 +141,4 @@ $c1->doA();
 echo "\n";
 echo "Клиент запускает операцию D.\n";
 $c2->doD();
+echo '</pre>';

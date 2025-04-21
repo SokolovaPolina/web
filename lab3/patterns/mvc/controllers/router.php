@@ -11,6 +11,7 @@ class Router
     {
         list($path, $ext) = explode('.', $path);
         $arr = explode('/', $path);
+        echo $ext;
         return new self($arr[0], $ext, count($arr) > 1 ? $arr[1] : null);
     }
 

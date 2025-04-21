@@ -20,6 +20,7 @@ namespace lab2;
  *
  * RU: Контекст определяет интерфейс, представляющий интерес для клиентов.
  */
+echo '<pre>';
 class Context
 {
     /**
@@ -138,3 +139,4 @@ echo "\n";
 echo "Клиент: Стратегия настроена на обратную сортировку.\n";
 $context->setStrategy(new ConcreteStrategyB());
 $context->doSomeBusinessLogic();
+echo '</pre>';

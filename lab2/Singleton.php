@@ -23,6 +23,7 @@ namespace lab2;
  * альтернативный конструктор и позволяет клиентам получать один и тот же
  * экземпляр класса при каждом вызове.
  */
+echo '<pre>';
 class Singleton
 {
     /**
@@ -121,3 +122,4 @@ function clientCode()
 }
 
 clientCode();
+echo '</pre>';

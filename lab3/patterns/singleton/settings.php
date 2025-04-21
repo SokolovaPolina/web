@@ -8,7 +8,7 @@ final class Settings
 
     private function __construct()
     {
-        $_settings = [];
+        $this->_settings = [];
     }
 
     private function __clone() {}

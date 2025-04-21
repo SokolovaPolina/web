@@ -15,7 +15,22 @@ class Users extends Collection
                  'igorsimdyanov@gmail.com',
                  'password',
                  'Игорь',
-                 'Симдянов')
+                 'Симдянов'),
+            new User(
+                'polinasokol@gmail.com',
+                'password',
+                'Полина',
+                'Соколова'),
+            new User(
+                'boss123@gmail.com',
+                'password',
+                'Никита',
+                'Басихин'),
+            new User(
+                'nutzuevo@gmail.com',
+                'password',
+                'Антон',
+                'Шишкин')
         ];
         parent::__construct($users);
     }

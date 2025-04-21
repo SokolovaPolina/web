@@ -23,6 +23,7 @@ namespace lab2;
  * RU: Интерфейс Строителя объявляет создающие методы для различных частей
  * объектов Продуктов.
  */
+echo '<pre>';
 interface Builder
 {
     public function producePartA(): void;
@@ -235,3 +236,4 @@ function clientCode(Director $director)
 
 $director = new Director();
 clientCode($director);
+echo '</pre>';

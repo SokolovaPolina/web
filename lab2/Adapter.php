@@ -19,6 +19,7 @@ namespace lab2;
  * RU: Целевой класс объявляет интерфейс, с которым может работать клиентский
  * код.
  */
+echo '<pre>';
 class Target
 {
     public function request(): string
@@ -90,3 +91,4 @@ echo "\n\n";
 echo "Клиент: Но я могу работать с ним через адаптер:\n";
 $adapter = new Adapter($adaptee);
 clientCode($adapter);
+echo '</pre>';

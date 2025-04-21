@@ -8,7 +8,9 @@ class User extends \Factory\Router
         private string $password,
         public ?string $first_name = null,
         public ?string $last_name = null)
-    {}
+    {
+        
+    }
 
     public function render() : string
     {

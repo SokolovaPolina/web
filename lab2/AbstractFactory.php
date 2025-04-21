@@ -88,7 +88,7 @@ interface AbstractProductA
 {
     public function usefulFunctionA(): string;
 }
-
+echo '<pre>';
 /**
  * EN: Concrete Products are created by corresponding Concrete Factories.
  *
@@ -98,6 +98,7 @@ class ConcreteProductA1 implements AbstractProductA
 {
     public function usefulFunctionA(): string
     {
+        
         return "Результат работы продукта A1.";
     }
 }
@@ -225,3 +226,5 @@ echo "\n";
 
 echo "Клиент: Тестируем тот же клиентский код со вторым заводским типом::\n";
 clientCode(new ConcreteFactory2());
+
+echo '</pre>';

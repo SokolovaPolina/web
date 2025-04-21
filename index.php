@@ -7,9 +7,11 @@
     <title>Соколова Полина 11 МО</title>
     <style>
         #conteiner{
-            width: 1400px;
-            height: 945px;
-            margin: 0 auto;
+            /*width: 1400px;*/
+            /*height: 945px;*/
+            /*margin: 0 auto;*/
+            display: flex;
+            justify-content: space-between;
         }
         body{
             /*background: linear-gradient(0deg, #FEC568 0%, #E3FFA1 100%);*/
@@ -20,17 +22,20 @@
         
 
         #left{
-            width: 700px;
-            float: left;
-            min-height: 900px;
-            margin-right: 50px;
-            margin-left: 60px;
+            width: 50%;
+            /*width: 700px;*/
+            /*float: left;*/
+            /*min-height: 900px;*/
+            /*margin-right: 10px;*/
+            margin-left: 100px;
+            
             
         }
         #right{
-            width: 700px;
-            min-height: 900px;
-            margin-left: 50%;
+            width: 50%;
+            /*width: 700px;*/
+            /*min-height: 900px;*/
+            /*margin-left: 10%;*/
             
         }
         ol {
@@ -51,8 +56,9 @@
 
 </head>
 <body>
-    <div id = "conteiner">
     <h1 > Лабораторные работы по PHP</h1>
+    <div id = "conteiner">
+    
     <div id = "left">
     <h2>1. Классы и интерфейсы </h2>
     <ol>
@@ -86,45 +92,41 @@
         <li><a href="http://f1097100.xsph.ru/lab2/TemplateMetod.php">Шаблонный метод (Template Method)</a></li>
         <li><a href="http://f1097100.xsph.ru/lab2/Visitor.php">Посетитель (Visitor)</a></li>
     </ol>
-    <!-- <h2>3. Встроенные функции</h2>
-    <ol>
-        <li> <a href="http://f0868605.xsph.ru/lab_3/strings.php">Использование функций обработки строк</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_3/date.php">Использование функций даты и времени</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_3/constants.php">Использование встроенных функций(константы)</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_3/functions.php">Использование встроенных функций(функции)</a></li>
-        <li><a href="http://f0868605.xsph.ru/lab_3//inc/index.php">Подключение файлов</a></li>
-    </ol>
-     <h2>4. Обработка форм</h2>
-     <ol>
-         <li> <a href="http://f0868605.xsph.ru/lab_4/index.php"> Метод GET и обработка запроса </a></li>
-         <li><a href="http://f0868605.xsph.ru/lab_4/index.php?id=table"> Метод POST и обработка запроса </a></li>
-         <li><a href="http://f0868605.xsph.ru/lab_4/index.php?id=calc">Создание он-лайн калькулятора</a></li>
-     </ol>
     </div>
     <div id = "right">
-     <h2>5. Работа с файлами. Загрузка файлов на сервер</h2>
+    <h2>3. Паттерн Модель-Представление-Контроллер</h2>
+    <ol>
+        <li><a href="http://f1097100.xsph.ru/lab3/patterns/settings_use.php">Пример использования паттерна Одиночка (Singleton)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab3/patterns/factory_use.php">Пример использования паттерна Фабричный метод (Factory Method)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab3/patterns/factory-method.html">Диаграмма классов для шаблона Фабричный метод (Factory Method)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab3/patterns/mvc_use.php">Пример использования паттерна Модель-Представление-Контроллер (MVC)</a></li>
+        <li><a href="http://f1097100.xsph.ru/lab3/patterns/diagram_class.html">Диаграмма классов для шаблона Модель-Представление-Контроллер (MVC)</a></li>
+    </ol>
+    
+    
+    <h2>4. Использование ООП с базой данных SQLite</h2>
      <ol>
-         <li> <a href="http://f0868605.xsph.ru/lab_5/file.php"> Работа с файлами </a></li>
-         <li><a href="http://f0868605.xsph.ru/lab_5/upload/upload.php"> Загрузка файлов на сервер </a></li>
-         <li><a href="http://f0868605.xsph.ru/lab_4/index.php?id=contact"> Отправка e-mail </a></li>
+         <li> <a href="http://f1097100.xsph.ru/news"> Новостная лента </a></li>
+         <li><a href="http://f1097100.xsph.ru/news"> Диаграмма классов </a></li>
+
      </ol>
-     <h2>6. Работа с протоколом HTTP: cookie, заголовки ответа сервера. Сессии</h2>
+    
+    
+     <h2>5. Standard PHP Library</h2>
      <ol>
-         <li> <a href="http://f0868605.xsph.ru/lab_6/cookie.php"> Использование cookie </a></li>
-         <li><a href="http://f0868605.xsph.ru/lab_6/session/page1.php">Использование сессий</a></li>
+         <li> <a href="http://f1097100.xsph.ru/"> Итератор </a></li>
+         
+         
      </ol>
-     <h2>7. Объектно-ориентированное программирование </h2>
+     <h2>6. Использование MVC фреймворка</h2>
      <ol>
-         <li> <a href="http://f0868605.xsph.ru/lab_7/users.php">Использование конструктора и деструктора </a></li>
-         <li> <a href="http://f0868605.xsph.ru/lab_7/super_users.php"> Реализация наследования классов  </a></li>
+         <li><a href="http://f1097100.xsph.ru/"> Фреймворк </a></li>
      </ol>
-     <h2>8. Использование сервера баз данных MySQL в приложениях PHP </h2>
-     <ol>
-         <li> <a href="http://f0868605.xsph.ru/lab_8/gbook_new.php">Работа с базой данных </a></li>
-     </ol> -->
+     
+     
     </div>
 </div>
 </body>
 </html>
 
-<!--?>-->
+?>

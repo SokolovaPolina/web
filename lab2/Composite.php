@@ -21,6 +21,7 @@ namespace lab2;
  * RU: Базовый класс Компонент объявляет общие операции как для простых, так и
  * для сложных объектов структуры.
  */
+echo '<pre>';
 abstract class Component
 {
     /**
@@ -242,3 +243,4 @@ function clientCode2(Component $component1, Component $component2)
 
 echo "Клиент: Мне не нужно проверять классы компонентов даже при управлении деревом:\n";
 clientCode2($tree, $simple);
+echo '</pre>';

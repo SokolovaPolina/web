@@ -50,6 +50,7 @@ class Abstraction
 
     public function operation(): string
     {
+        echo '<pre>';
         return "Абстракция: Базовая операция с:\n" .
             $this->implementation->operationImplementation();
     }
@@ -147,3 +148,4 @@ echo "\n";
 $implementation = new ConcreteImplementationB();
 $abstraction = new ExtendedAbstraction($implementation);
 clientCode($abstraction);
+echo '</pre>';

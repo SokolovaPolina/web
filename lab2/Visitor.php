@@ -20,6 +20,7 @@ namespace lab2;
  * RU: Интерфейс Компонента объявляет метод accept, который в качестве аргумента
  * может получать любой объект, реализующий интерфейс посетителя.
  */
+echo '<pre>';
 interface Component
 {
     public function accept(Visitor $visitor): void;
@@ -172,3 +173,4 @@ echo "\n";
 echo "Это позволяет одному и тому же клиентскому коду работать с разными типами посетителей:\n";
 $visitor2 = new ConcreteVisitor2();
 clientCode($components, $visitor2);
+echo '</pre>';

@@ -22,6 +22,7 @@ namespace lab2;
  *
  * RU: Интерфейс Команды объявляет метод для выполнения команд.
  */
+echo '<pre>';
 interface Command
 {
     public function execute(): void;
@@ -189,3 +190,4 @@ $receiver = new Receiver();
 $invoker->setOnFinish(new ComplexCommand($receiver, "Отправить email", "Сохранить отчет"));
 
 $invoker->doSomethingImportant();
+echo '</pre>';

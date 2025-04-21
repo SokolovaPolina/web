@@ -25,6 +25,7 @@ namespace lab2;
  * этот интерфейс, вы сможете передать ему заместителя вместо реального
  * субъекта.
  */
+echo '<pre>';
 interface Subject
 {
     public function request(): void;
@@ -142,3 +143,4 @@ echo "\n";
 echo "Клиент: Выполнение того же клиентского кода с помощью прокси-сервера:\n";
 $proxy = new Proxy($realSubject);
 clientCode($proxy);
+echo '</pre>';

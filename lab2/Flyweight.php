@@ -27,6 +27,7 @@ namespace lab2;
  * Легковес принимает оставшуюся часть состояния (внешнее состояние, уникальное
  * для каждого объекта)  через его параметры метода.
  */
+echo '<pre>';
 class Flyweight
 {
     private $sharedState;
@@ -163,3 +164,4 @@ addCarToPoliceDatabase($factory,
 );
 
 $factory->listFlyweights();
+echo '</pre>';

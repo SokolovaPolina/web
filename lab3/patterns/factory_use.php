@@ -1,7 +1,7 @@
 <?php
 spl_autoload_register();
 
-use Factory\Router;
+use Factory\Models\User;
 
-$obj = Router::parse('users');
+$obj = User::parse('users');
 echo $obj->render();

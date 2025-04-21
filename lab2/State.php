@@ -23,6 +23,7 @@ namespace lab2;
  * также хранит ссылку на экземпляр подкласса Состояния, который отображает
  * текущее состояние Контекста.
  */
+echo '<pre>';
 class Context
 {
     /**
@@ -140,3 +141,4 @@ class ConcreteStateB extends State
 $context = new Context(new ConcreteStateA());
 $context->request1();
 $context->request2();
+echo '</pre>';
