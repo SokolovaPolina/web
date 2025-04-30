@@ -11,7 +11,7 @@ class ProductController extends Controller
       /**
  * @param private $users - массив, содержащий информацию о продуктах: название, цена,
  *                                                                     количество и категория
-          public $title - заголовок
+ * public $title - заголовок
  */
     private $products;
     public $title;

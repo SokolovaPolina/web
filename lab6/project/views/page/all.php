@@ -10,7 +10,7 @@
 		<tr>
 			<td><?= $page['id']; ?></td>
 			<td><?= $page['title']; ?></td>
-			<td><a href="/page/<?= $page['id']; ?>/">ссылка на страницу</td>
+			<td><a href="/page/<?= $page['id']; ?>/">ссылка на страницу</a></td>
 		</tr>
 		<?php endforeach; ?>
 	</table>

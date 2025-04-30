@@ -9,7 +9,7 @@ class UserController extends Controller
 {
     /**
  * @param private $users - массив пользователей с параметрами: имя, возраст, зарплата
-          public $title - заголовок
+    *      public $title - заголовок
  */
     private $users;
     public $title;
