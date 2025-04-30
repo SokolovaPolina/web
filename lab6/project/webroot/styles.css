@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/project/webroot/styles.css">
-    <title><?= $title ?></title>
-    
-    <style>
-        body {
+body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
             margin: 0;
@@ -84,7 +75,7 @@
         }
 
         nav ul li {
-            margin: 1rem 0;
+            margin: 10px 0;
             position: relative;
         }
 
@@ -103,7 +94,7 @@
             margin-left: 15px;
             background-color: #f9f9f9;
             border-left: 3px solid #993399;
-            padding: 1rem;
+            padding: 10px;
             border-radius: 3px;
         }
 
@@ -114,7 +105,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 2rem 0;
+            margin: 20px 0;
         }
         th, td {
             padding: 12px;
@@ -142,13 +133,13 @@
             position: relative;
             bottom: 0;
             width: 100%;
-            margin-top: 2rem;
+            margin-top: 20px;
         }
          .header-image {
             width: 70px; 
             height: auto; 
             vertical-align: middle; 
-            margin-right: 1rem;
+            margin-right: 10px;
             display: inline-block;
         }
         
@@ -163,76 +154,3 @@
             border-radius: 5px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
-        @media (max-width: 400px) {
-    .container {
-        flex-direction: column;
-    }
-
-    aside.sidebar {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    main {
-        margin: 0;
-    }
-}
-
-    @media (max-width: 400px) {
-        header h1 {
-            font-size: 24px;
-        }
-    
-        footer {
-            font-size: 14px;
-        }
-    }
-
-    </style>
-</head>
-<body>
-    <header>
-        <h1 style="color: #FFFFFF; text-align: center; padding: 10px 0 0 0;">MVC Фреймворк <img src="/project/webroot/cat.png" class="header-image"></h1>
-        
-        
-    </header>
-    <div class="container">
-        <aside class="sidebar left">
-            <nav>
-                <ul>
-                    <li><a href="/hello/"><h3>Главная</h3></a></li>
-                    <li><a href="#"><h3>Тесты</h3></a>
-                        <ul class="sub-menu">
-                            <li><a href="/test/act1">Тест 1</a></li>
-                            <li><a href="/test/act2">Тест 2</a></li>
-                            <li><a href="/test/act3">Тест 3</a></li>
-                            <li><a href="/test/act/">Тест 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/nums/:n1/:n2/:n3"><h3>Калькулятор</h3></a></li>
-                    <li><a href=/pages/><h3>Список страниц</h3></a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main>
-            <?= $content ?>
-            <div class="image-container">
-                <img src="/project/webroot/fl.jpg" alt="Описание изображения">
-            </div>
-        </main>
-        <aside class="sidebar right">
-            <nav>
-            <ul>
-                <li><a href="/user/first/2"><h3>Список пользователей</h3></a></li>
-                <li><a href="/products/all/"><h3>Список продуктов</h3></a></li>
-                <li><a href="/products/"><h3>Список товаров</h3></a></li>
-            </ul>
-            </nav>
-            
-        </aside>
-    </div>
-    <footer>
-        <p styly="color:#e4e3e9"> Sokolova Polina 11MO </p>
-    </footer>
-</body>
-</html>
