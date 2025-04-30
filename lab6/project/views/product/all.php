@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Список всех продуктов</h1>
-<table border='1'>
+<table>
     
     <tr>
         <th>ID</th>

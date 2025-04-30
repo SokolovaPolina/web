@@ -17,7 +17,7 @@
                     <b>Зарплата: </b><?= $user['salary'] ?></p><hr>
     <?php endforeach; ?>
     
-    <p><a href=/users/all/>Показать всех</a></p>
+    <p><a href="/users/all/">Показать всех</a></p>
 
 </body>
 </html>

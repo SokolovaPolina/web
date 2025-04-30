@@ -210,7 +210,7 @@
                         </ul>
                     </li>
                     <li><a href="/nums/:n1/:n2/:n3"><h3>Калькулятор</h3></a></li>
-                    <li><a href=/pages/><h3>Список страниц</h3></a></li>
+                    <li><a href="/pages/"><h3>Список страниц</h3></a></li>
                 </ul>
             </nav>
         </aside>
